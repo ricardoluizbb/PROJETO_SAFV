@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAFV</title>
+    <link rel="stylesheet" href="../css/MenuPrincipal/estilo.css">
+</head>
+
+<body>
+    <div class="container">
+        <header id="logo">
+            <img src="../image/logo.png">
+        </header>
+        <main>
+            <!--O MAIN CONTEMPLA TODOS OS ELEMENTOS DOS MENUS LATERAIS E CENTRAIS (DISPLAY FLEX)-->
+            <nav id="menu-lateral">
+                <ul>
+                    <div class="icon">
+                        <li class="li" id="icone-veiculos" onmouseover="entrou(1)" onmouseenter="saiu(1)">
+                            <a href="http://www.google.com"> </a> <img src="../icons/veiculos.png">
+                        </li>
+                    </div>
+                    <div class="icon">
+                        <li class="li" onmouseover="entrou(2)" onmouseenter="saiu(2)">
+                            <a href="http://www.google.com"> </a> <img src="../icons/usuarios.png">
+                        </li>
+                    </div>
+                    <div class="icon">
+                        <li class="li" onmouseover="entrou(3)" onmouseenter="saiu(3)">
+                            <a href="http://www.google.com"> <img src="../icons/motoristas.png">
+                        </li>
+                    </div>
+                    <div class="icon">
+                        <li class="li" onmouseenter="saiu(4)">
+                            <a href="http://www.google.com"> <img src="../icons/relatorios.png"> </a>
+                        </li>
+                    </div>
+                    <div class="icon">
+                        <li class="li" onmouseenter="saiu(4)">
+                            <a href="http://www.google.com"> <img src="../icons/configuracoes.png"> </a>
+                        </li>
+                    </div>
+                    <div class="icon">
+                        <li id="s" onmouseenter="saiu(4)">
+                            <a href="http://www.google.com"> <img src="../icons/sair.png"> </a>
+                        </li>
+                    </div>
+                </ul>
+                <nav id="menu-lateralAtivado">
+                    <ul id="veiculo" onmouseleave="saiu(4)">
+                        <li>
+                            <a href="http://www.google.com">CADASTRO VEÍCULOS</a>
+                        </li>
+                        <li>
+                            <a href="http://www.google.com">CONSULTA VEÍCULOS</a>
+                        </li>
+                    </ul>
+                    <ul id="usuario" onmouseleave="saiu(4)">
+                        <li>
+                            <a href="http://www.google.com">CADASTRO USUÁRIOS</a>
+                        </li>
+                        <li>
+                            <a href="http://www.google.com">CONSULTA USUÁRIOS</a>
+                        </li>
+                    </ul>
+                    <ul id="motorista" onmouseleave="saiu(4)">
+                        <li>
+                            <a href="http://www.google.com">CADASTRO MOTORISTA</a>
+                        </li>
+                        <li>
+                            <a href="http://www.google.com">CONSULTA MOTORISTA</a>
+                        </li>
+                    </ul>
+                </nav>
+            </nav>
+
+            <section>
+                <!--SEÇÃO REFERENTE AO MENU CENTRAL-->
+                <header id='menuCentral-title'>
+                    <h1>MENU PRINCIPAL</h1>
+                </header>
+                <main id='menuCentral-body'>
+                    <nav id="menu-central">
+                        <a class="btn btn-menuCentral" href="#">Solicitar Viagem</a>
+                        <a class="btn btn-menuCentral" href="#">Diário de Bordo</a>
+                        <a class="btn btn-menuCentral opcaoVeiculos" href="#">Veículos</a>
+                    </nav>
+                </main>
+
+            </section>
+        </main>
+        <script src="../js/index.js"></script>
+    </div>
+</body>
+
+</html>

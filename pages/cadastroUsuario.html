@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAFV - Cadastro de Usuário</title>
+    <link rel="stylesheet" href="../css/CadastroUsuario/estilo.css">
+</head>
+
+<body>
+    <div class="container">
+        <header id="logo">
+            <img src="../image/logo.png">
+        </header>
+        <main>
+            <nav id="menu-lateral">
+                <ul>
+                    <div class="icon">
+                        <li id="s">
+                            <a href="http://www.google.com"> </a> <img src="../icons/sair.png">
+                        </li>
+                    </div>
+                </ul>
+            </nav>
+            <!--SEÇÃO REFERENTE AO MENU CENTRAL-->
+            <section id='secaoPrincipal'>
+                <header id='cadastroUsuario-title'>
+                    <h1>CADASTRO DE USUÁRIOS</h1>
+                </header>
+                <main id="main-form">
+                    <form>
+
+                        <div class="campo">
+                            <label id="labelNome" for="inputNome">NOME</label>
+                            <input id="inputNome" type="text" id="nome" placeholder="NOME">
+                        </div>
+                        <div class="grupo1">
+                            <div class="campo agrupado">
+                                <label id="labelCpf" for="inputCpf">CPF</label>
+                                <input type="text" id="inputCpf" placeholder="CPF">
+                            </div>
+                            <div class="campo agrupado">
+                                <label id="labelRg" for="inputRg">RG</label>
+                                <input type="text" id="inputRg" placeholder="RG">
+                            </div>
+                            <div class="campo agrupado">
+                                <label id="labelDataNascimento" for="inputDataNascimento">NASCIMENTO</label>
+                                <input type="date" id="inputDataNascimento" placeholder="DATA DE NASCIMENTO">
+                            </div>
+                        </div>
+
+                        <div class="grupo1">
+                            <div class="campo agrupado">
+                                <label id="labelFuncao" for="inputFuncao">Função</label>
+                                <input type="text" id="inputFuncao" placeholder="FUNÇÃO">
+                            </div>
+                            <div class="campo agrupado">
+                                <label for="inputMatricula" id="labelMatricula">Matrícula</label>
+                                <input type="text" id="inputMatricula" placeholder="MATRÍCULA">
+                            </div>
+                            <div class="campo agrupado">
+                                <label for="inputSetor" id="labelSetor">Setor</label>
+                                <input type="text" id="inputSetor" placeholder="SETOR">
+                            </div>
+                        </div>
+
+
+                        <div class="campo">
+                            <label id="labelEndereco" for="inputEndereco">Endereço</label>
+                            <input type="text" id="inputEndereco" placeholder="ENDEREÇO">
+                        </div>
+                        <div class="grupo1">
+                            <div class="campo agrupado-2">
+                                <label id="labelEmailInstitucional" for="inputEmailInstitucional">E-mail
+                                    Institucional</label>
+                                <input type="text" id="inputEmailInstitucional" placeholder="E-MAIL INSTITUCIONAL">
+                            </div>
+                            <div class="campo agrupado-2">
+                                <label id="labelConfirmEmailInstitucional"
+                                    for="inputConfirmEmailInstitucional">Confirmar E-mail
+                                    Institucional</label>
+                                <input type="text" id="inputConfirmEmailInstitucional"
+                                    placeholder="CONFIRME O SEU E-MAIL INSTITUCIONAL">
+                            </div>
+                            <div class="campo agrupado-2">
+                                <label id="labelEmailPessoal" for="inputEmailPessoal">E-mail Pessoal
+                                    (Opcional)</label>
+                                <input type="text" id="inputEmailPessoal" placeholder="E-MAIL PESSOAL">
+                            </div>
+                            <div class="campo agrupado-2">
+                                <label id="labelConfirmEmailPessoal" for="inputConfirmEmailPessoal">Confirmar
+                                    E-mail
+                                    Pessoal</label>
+                                <input type="text" id="inputConfirmEmailPessoal"
+                                    placeholder="CONFIRME O SEU E-MAIL PESSOAL">
+                            </div>
+                            <div class="campo agrupado-2">
+                                <label for="inputTelefone" id="labelTelefone">Telefone</label>
+                                <input type="text" id="inputTelefone" placeholder="TELEFONE">
+                            </div>
+                            <div class="campo agrupado-2">
+                                <label for="inputTelefoneOpcional" id="labelTelefoneOpcional">Telefone (Opcional)
+                                </label>
+                                <input type="text" id="inputTelefoneOpcional" placeholder="TELEFONE (OPCIONAL)">
+                            </div>
+                        </div>
+                        <div class="btn-container">
+                            <div class="campo-button button-salvar">
+                                <input class="form-button" type="submit" id="btn-salvar" value="">
+                                <label for="btn-salvar">SALVAR</label>
+                            </div>
+
+                        </div>
+
+                    </form>
+                </main>
+
+            </section>
+        </main>
+        <script src="../js/index.js"></script>
+    </div>
+</body>
+
+</html>

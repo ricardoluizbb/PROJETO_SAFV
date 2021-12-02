@@ -1,0 +1,103 @@
+@import url("/css/CadastroUsuario/reset.css");
+@import url("/css/CadastroUsuario/btn.css");
+@import url("/css/CadastroUsuario/header.css");
+@import url("/css/CadastroUsuario/main.css");
+@import url("/css/CadastroUsuario/navLateralReduzido.css");
+
+
+label{
+    background-color: #d7f1f5 ;
+    font-weight: 600;
+    font-size: 14pt;
+    text-transform: uppercase;
+}
+input{
+    font-size: 12pt;
+    text-align: center;
+}
+#secaoPrincipal{
+    width: 720px;
+    text-align: center;
+    margin-left: 17%;
+}
+
+#cadastroUsuario-title{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#main-form{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.campo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.grupo1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.agrupado{
+    width: 32%;
+}
+.agrupado-2{
+    width: 50%;
+}
+.form-button{
+    width: 60px;
+    height: 60px;
+}
+.campo-button{
+    margin: 10px;
+    width: 90px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    box-shadow: 1px 1px 4px 4px #041f5f;
+  
+}
+.btn-container{
+    display: flex;
+    background-color: #fff;
+    width: 100px;
+    border-radius: 5px 5px 0 0;
+    margin: auto;
+    margin-top: 15px;
+}
+.btn-container label{
+    background-color: transparent;
+    font-weight: 600;
+}
+#btn-salvar{
+    width: 100%;
+    border: none;
+    background-color: #fff;
+    background-image: url("/icons/salvar.png");
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.btn-container label:hover{
+    cursor:pointer;
+}
+
+#btn-salvar:hover{
+    background-color: rgb(28, 197, 42);
+    cursor: pointer;
+}
+.button-salvar:hover{
+    background-color: rgb(28, 197, 42);
+    cursor: pointer;
+}
+
+
+
+
+

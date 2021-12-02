@@ -1,0 +1,31 @@
+#menu-lateral{
+    width: 80px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#menu-lateral ul{
+    padding-top: 10px;
+    height: 93px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    list-style: none;
+    background-color: aliceblue;
+    border-radius: 0px 20px 20px 0px;
+    cursor: pointer;
+}
+#menu-lateral li{
+    width: 100%;
+    margin-bottom: 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+#menu-lateral li:hover{
+    background-color: #067fc5;
+}
+#menu-lateral #s:hover{
+background-color: red;
+}

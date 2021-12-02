@@ -1,0 +1,33 @@
+body{
+    background-image: url("/image/img_geral.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    background-color: #6888AA;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+
+section{
+    width: 100%;
+}
+
+main{
+    display: flex;  
+}

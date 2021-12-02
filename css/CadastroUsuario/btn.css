@@ -1,0 +1,23 @@
+.btn{
+    font-size: 17pt;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #197CB4;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-menuCentral{
+    background: #197CB4;
+    color: #fff;
+    box-shadow: 4px 4px #041f5f;
+}
+
+.btn-menuCentral:hover{
+    background: #067fc5;
+    color: #fff;
+    box-shadow: 4px 4px #041f5f;
+
+}
