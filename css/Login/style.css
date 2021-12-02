@@ -1,0 +1,62 @@
+body, html {
+    background-image: url("/image/img_geral.png");
+    background-color: #6888AA;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: Roboto;
+    height: 100%;
+    margin: 0;
+}
+
+.login-logo {
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.login-box {
+    background-color: #135779;
+    width: 690px;
+    height: 640px;
+    margin: auto;
+    margin-top: 15px;
+    border: 6px solid #5D5FEF;
+    border-radius: 10px;
+    padding: 4px;
+}
+#titulo {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 40px;
+    size: 50px;
+}
+#matricula {
+    width: 310px;
+    height: 101px;
+    font-size: 35px;
+    border: 4px solid;
+    border-radius: 10px;
+    margin-left: 199px;
+    text-align: center;
+}
+#senha {
+    width: 310px;
+    height: 101px;
+    font-size: 35px;
+    border: 4px solid;
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-left: 199px;
+    text-align: center;
+}
+#botao {
+    width: 310px;
+    height: 101px;
+    font-size: 35px;
+    color: white;
+    border: 4px solid black;
+    margin-top: 30px;
+    background-color: #639238;
+    margin-left: 199px;
+    cursor: pointer;
+}
